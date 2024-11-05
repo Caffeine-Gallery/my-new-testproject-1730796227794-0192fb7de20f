@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="calculator">
+        <div class="display" id="display">0</div>
+        <div class="buttons">
+            <button class="clear" data-action="clear">C</button>
+            <button data-action="operator">/</button>
+            <button data-action="number">7</button>
+            <button data-action="number">8</button>
+            <button data-action="number">9</button>
+            <button data-action="operator">*</button>
+            <button data-action="number">4</button>
+            <button data-action="number">5</button>
+            <button data-action="number">6</button>
+            <button data-action="operator">-</button>
+            <button data-action="number">1</button>
+            <button data-action="number">2</button>
+            <button data-action="number">3</button>
+            <button data-action="operator">+</button>
+            <button data-action="number">0</button>
+            <button data-action="decimal">.</button>
+            <button class="equals" data-action="calculate">=</button>
+        </div>
+    </div>
+    <div id="loading" class="loading">Calculating...</div>
+    <script type="module" src="index.js"></script>
+</body>
+</html>
